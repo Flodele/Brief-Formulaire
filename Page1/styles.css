@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+
+a{
+  color: white;
+}
+
+body{
+  color: white;
+  /* arrière plan */
+  background-color:rgba(37, 2, 2, 0.925) ;  
+}
+
+.liste{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: ridge black;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  padding-right: 40px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.home{
+  font-size: xx-large;
+}
+
+.signup{
+  font-size: xx-large;
+}
+
+
+*{
+  font-family: "Cardo", serif;
+}
+
+
+
+label{
+  font-family: "roboto" , sans-serif;
+  font-size:medium;
+  width: 20em;
+}
+
+
+.titre {
+  border: 5px ridge rgba(255, 255, 255, 0.13);
+  border-radius: 5px;
+  margin-bottom: 50px;
+background-color: rgba(255, 255, 255, 0.13);
+display: flex;
+align-items: center;
+flex-direction: column;
+line-height: 150%;
+}
+
+.formulaire{
+  display: flex;
+ flex-wrap: wrap;
+ margin-left: 18%;
+}
+
+.userinfo {
+    border: 5px ridge rgba(255, 255, 255, 0.13);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+background-color: rgba(255, 255, 255, 0.13);
+display: flex;
+align-items: center;
+flex-direction: column;
+box-sizing: border-box; width: auto;
+padding-bottom: 25px;
+padding-left: 20px;
+line-height: 300%;
+
+}
+
+.colorpicker{
+  margin-right: auto;
+}
+
+.skill{
+  background: #0000001e;
+  color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 9px;
+  font-size: larger;
+}
+
+
+.adress {
+  border: 5px ridge rgba(255, 255, 255, 0.13);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+background-color: rgba(255, 255, 255, 0.13);
+display: flex;
+align-items: center;
+flex-direction: column;
+box-sizing: border-box; width:fit-content;
+padding-bottom: 25px;
+padding-left: 20px;
+line-height: 300%;
+
+}
+
+.info {
+  border: 5px ridge rgba(255, 255, 255, 0.13);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+background-color: rgba(255, 255, 255, 0.13);
+display: flex;
+align-items: center;
+flex-direction: column;
+box-sizing: border-box; width:fit-content;
+padding-bottom: 25px;
+padding-left: 20px;
+line-height: 300%;
+    
+}
+
+.other {
+  border: 5px ridge rgba(255, 255, 255, 0.13);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 15%;
+background-color: rgba(255, 255, 255, 0.13);
+display: flex;
+flex-direction: column;
+box-sizing: border-box; width:fit-content;
+padding-bottom: 50px;
+padding-left: 20px;
+line-height: 300%;
+    
+}
+
+.dispo{
+  margin-right: auto;
+}
+
+.bouton {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text] {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color:rgba(255, 255, 255, 0.13);
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: white;
+  color: black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+input[type="button"] {
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type="email"] {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color:rgba(255, 255, 255, 0.13);
+  border-radius: 5px;
+}
+
+
